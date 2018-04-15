@@ -3,7 +3,7 @@ var CONFIG = {
     "map_myworld": {
       "imageFormat": "png",
       "lastRendered": [
-        1523827950,
+        1523828416,
         0,
         0,
         0
