@@ -5,7 +5,6 @@ MAPCRAFTER_MARKERS_GENERATED = [
   {
     "id" : "homes",
     "name" : "Waypoints",
-    "icon" : "home.png",
     "showDefault" : true,
     "markers" : {
       "myworld" : [
