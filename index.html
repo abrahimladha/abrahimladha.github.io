@@ -1,36 +1,91 @@
-<!--
-Modified "Blue Bliss" Theme. Credit due to Bryant Smith!
- -->
+<!DOCTYPE html>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<title>Abrahim Ladha</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="mysite.css" />
-</head>
-<body>
-<div id="mainContentArea">
-	<div id="contentBox">
-        <div id="title">Abrahim Ladha</div>
-        
-        <div id="linkGroup">
-            <div class="link"><a href="index.html">Home</a></div>
-            <div class="link"><a href="index.html">Research and Projects</a></div>
-            <div class="link"><a href="blog.html">Blog</a></div>
-            <div class="link"><a href="contact.html">Contact</a></div>
-        </div>
-        
-        <div id="blueBox"> 
-          <div id="header"></div>
-          <div class="contentTitle">About me</div>
-            <div class="pageContent">
-              <p>Currently an undergraduate studying mathematics and computer science at Armstrong State University</p>
-              <p>welcome to my site. Everything is under repair. </p>
-              
-            </div>
-        </div>
-	</div>
-</div>
-</body>
+<!--
+
+ ________________________________________ 
+/ We are the Borg. We will add your maps \
+| to our own. Your worlds will adapt to  |
+\ service us. Resistance is futile.      /
+ ---------------------------------------- 
+        \
+         \
+          \
+           /-/_"/-/_/-/|
+          /"-/-_"/-_//||
+         /__________/|/|
+         |"|_'='-]:+|/||
+         |-+-|.|_'-"||//
+         |[".[:!+-'=|//
+         |='!+|-:]|-|/
+          ----------
+
+
+
+(http://startrekasciiart.blogspot.de/2011/06/borg-cube.html, thanks to Carlo Valenti!)
+
+-->
+
+<html>
+	<head>
+		<title>Minecraft Map</title>
+		<meta name="generator" content="Mapcrafter 2.4" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+		<link rel="stylesheet" href="static/leaflet/leaflet.css" />
+		<script src="static/leaflet/leaflet.js"></script>
+		<style type="text/css">
+		.leaflet-container {
+			background: #DDDDDD;
+		}
+		</style>
+
+		<script src="static/js/jquery-2.2.4.min.js"></script>
+		<link rel="stylesheet" href="static/css/bootstrap.min.css">
+		<script src="static/js/bootstrap.min.js"></script>
+
+		<script type="text/javascript" src="static/js/util.js"></script>
+		<script type="text/javascript" src="static/js/handler/base.js"></script>
+		<script type="text/javascript" src="static/js/handler/marker.js"></script>
+		<script type="text/javascript" src="static/js/handler/mapselect.js"></script>
+		<script type="text/javascript" src="static/js/handler/poshash.js"></script>
+		<script type="text/javascript" src="static/js/handler/rotationselect.js"></script>
+		<script type="text/javascript" src="static/js/control/base.js"></script>
+		<script type="text/javascript" src="static/js/control/mapselect.js"></script>
+		<script type="text/javascript" src="static/js/control/marker.js"></script>
+		<script type="text/javascript" src="static/js/control/mousepos.js"></script>
+		<script type="text/javascript" src="static/js/control/rotationselect.js"></script>
+		<script type="text/javascript" src="static/js/mapcrafterui.js"></script>
+
+		<!-- Last update 14.04.2018, 22:41:11 -->
+		<script type="text/javascript" src="config.js"></script>
+		<script type="text/javascript" src="markers.js"></script>
+		<script type="text/javascript" src="markers-generated.js"></script>
+		<script type="text/javascript">
+		var Mapcrafter = new MapcrafterUI(CONFIG);
+
+		function init() {
+			Mapcrafter.init();
+			
+			Mapcrafter.addControl(new MapSelectControl(), "topright", 1);
+			Mapcrafter.addControl(new RotationSelectControl(), "bottomright", 1);
+			Mapcrafter.addControl(new MousePosControl(), "bottomleft", 1);
+
+			// merge the two marker configurations
+			var markers = [];
+			if(typeof MAPCRAFTER_MARKERS !== "undefined")
+				for(var i = 0; i < MAPCRAFTER_MARKERS.length; i++)
+					markers.push(MAPCRAFTER_MARKERS[i]);
+			if(typeof MAPCRAFTER_MARKERS_GENERATED !== "undefined")
+				for(var i = 0; i < MAPCRAFTER_MARKERS_GENERATED.length; i++)
+					markers.push(MAPCRAFTER_MARKERS_GENERATED[i]);
+			// only create marker control if marker groups exist
+			if(markers.length > 0)
+				Mapcrafter.addControl(new MarkerControl(markers), "topright", 2);
+		}
+		</script>
+	</head>
+	<body onload="init()">
+		<div id="mcmap"></div>
+	</body>
 </html>
