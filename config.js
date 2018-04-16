@@ -3,12 +3,12 @@ var CONFIG = {
     "map_myworld": {
       "imageFormat": "png",
       "lastRendered": [
-        1523829288,
+        1523847428,
         0,
         0,
         0
       ],
-      "maxZoom": 10,
+      "maxZoom": 11,
       "name": "VGD Farming Valley",
       "renderView": "isometric",
       "rotations": [
@@ -24,7 +24,7 @@ var CONFIG = {
     "top_down": {
       "imageFormat": "png",
       "lastRendered": [
-        1523829288,
+        1523847428,
         0,
         0,
         0
@@ -49,7 +49,7 @@ var CONFIG = {
   ],
   "tileSetGroups": {
     "myworld_isometric_t1": {
-      "maxZoom": 10,
+      "maxZoom": 11,
       "tileOffsets": [
         [
           0,
