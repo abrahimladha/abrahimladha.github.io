@@ -8,6 +8,8 @@ MAPCRAFTER_MARKERS_GENERATED = [
     "showDefault" : true,
     "markers" : {
       "myworld" : [
+        {"pos": [-199,-964,64], "title": "Pirate Ship", "text": "Pirate Ship", },
+        {"pos": [-16,-700,64], "title": "Pirate Ship", "text": "Pirate Ship", },
         {"pos": [-185,1174,70], "title": "\"You're tearing me apart, Lisa!\" \"Oh hi, Mark.\"", "text": "\"You're tearing me apart, Lisa!\" \"Oh hi, Mark.\"", },
         {"pos": [-161,1183,73], "title": "=============== ===============", "text": "=============== ===============", },
         {"pos": [-164,1177,71], "title": "Yulif's Carpentry 09:00-17:30 Sun-Fri", "text": "Yulif's Carpentry 09:00-17:30 Sun-Fri", },
@@ -26,7 +28,7 @@ MAPCRAFTER_MARKERS_GENERATED = [
         {"pos": [-155,1197,73], "title": "=============== ===============", "text": "=============== ===============", },
         {"pos": [-156,1197,73], "title": "=============== ===============", "text": "=============== ===============", },
         {"pos": [415,-1408,71], "title": "Yulif's Carpentry 09:00-17:30 Sun-Fri", "text": "Yulif's Carpentry 09:00-17:30 Sun-Fri", },
-        {"pos": [418,-1399,72], "title": "Big Boy Land", "text": "Big Boy Land", },
+        {"pos": [417,-1392,72], "title": "Big Boi Land", "text": "Big Boi Land", },
         {"pos": [163,305,32], "title": "<---- ---->", "text": "<---- ---->", },
         {"pos": [290,504,68], "title": "Blacksmith Fri-Wed 10am-4pm", "text": "Blacksmith Fri-Wed 10am-4pm", },
         {"pos": [322,487,68], "title": "Yulif's Carpentry 09:00-17:30 Sun-Fri", "text": "Yulif's Carpentry 09:00-17:30 Sun-Fri", },
