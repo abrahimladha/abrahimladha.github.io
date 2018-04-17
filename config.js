@@ -3,7 +3,7 @@ var CONFIG = {
     "map_myworld": {
       "imageFormat": "png",
       "lastRendered": [
-        1523914831,
+        1523935420,
         0,
         0,
         0
@@ -24,12 +24,12 @@ var CONFIG = {
     "top_down": {
       "imageFormat": "png",
       "lastRendered": [
-        1523914831,
+        1523935420,
         0,
         0,
         0
       ],
-      "maxZoom": 12,
+      "maxZoom": 13,
       "name": "VGD topdown",
       "renderView": "topdown",
       "rotations": [
@@ -71,7 +71,7 @@ var CONFIG = {
       "tileWidth": 1
     },
     "myworld_topdown_t1": {
-      "maxZoom": 12,
+      "maxZoom": 13,
       "tileOffsets": [
         [
           0,

@@ -11,6 +11,7 @@ MAPCRAFTER_MARKERS_GENERATED = [
         {"pos": [-199,-964,64], "title": "Pirate Ship", "text": "Pirate Ship", },
         {"pos": [-16,-700,64], "title": "Pirate Ship", "text": "Pirate Ship", },
         {"pos": [-211,1176,73], "title": "Foxie's Fowl 05:00 - 11:00 Mon-Sat", "text": "Foxie's Fowl 05:00 - 11:00 Mon-Sat", },
+        {"pos": [-210,1188,72], "title": "Animal Ranch Open Monday to... Saturday from... 10am to 3pm", "text": "Animal Ranch Open Monday to... Saturday from... 10am to 3pm", },
         {"pos": [-185,1174,70], "title": "\"You're tearing me apart, Lisa!\" \"Oh hi, Mark.\"", "text": "\"You're tearing me apart, Lisa!\" \"Oh hi, Mark.\"", },
         {"pos": [-161,1183,73], "title": "=============== ===============", "text": "=============== ===============", },
         {"pos": [-164,1177,71], "title": "Yulif's Carpentry 09:00-17:30 Sun-Fri", "text": "Yulif's Carpentry 09:00-17:30 Sun-Fri", },
